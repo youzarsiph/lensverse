@@ -1,2 +1,3 @@
-# pixhub
+# PixHub
+
 A photo sharing platform. 
