@@ -1,5 +1,4 @@
-""" Tests for pixhub.reels """
-
+""" Tests for lensverse.reels """
 
 from django.test import TestCase
 

@@ -1,17 +1,16 @@
-""" Serializers for pixhub.pixes """
-
+""" Serializers for lensverse.posts """
 
 from rest_framework.serializers import ModelSerializer
-from pixhub.pixes.models import Pix
+from lensverse.posts.models import Post
 
 
 # Create your serializers here.
-class PixSerializer(ModelSerializer):
+class PostSerializer(ModelSerializer):
     """Pix Serializer"""
 
     class Meta:
         """Meta data"""
 
-        model = Pix
+        model = Post
         read_only_fields = []
         fields = []

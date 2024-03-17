@@ -1,9 +1,8 @@
-""" URLConf for pixhub.profiles """
-
+""" URLConf for lensverse.profiles """
 
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from pixhub.profiles.views import ProfileViewSet
+from lensverse.profiles.views import ProfileViewSet
 
 
 # Create your URLConf here.

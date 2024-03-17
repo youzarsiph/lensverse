@@ -1,10 +1,9 @@
-""" API endpoints for pixhub.followers """
-
+""" API endpoints for lensverse.followers """
 
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
-from pixhub.followers.models import Follower
-from pixhub.followers.serializers import FollowerSerializer
+from lensverse.followers.models import Follower
+from lensverse.followers.serializers import FollowerSerializer
 
 
 # Create your views here.

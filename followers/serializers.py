@@ -1,8 +1,7 @@
-""" Serializers for pixhub.followers """
-
+""" Serializers for lensverse.followers """
 
 from rest_framework.serializers import ModelSerializer
-from pixhub.followers.models import Follower
+from lensverse.followers.models import Follower
 
 
 # Create your serializers here.

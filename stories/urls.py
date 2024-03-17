@@ -1,9 +1,8 @@
-""" URLConf for pixhub.stories """
-
+""" URLConf for lensverse.stories """
 
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from pixhub.stories.views import StoryViewSet
+from lensverse.stories.views import StoryViewSet
 
 
 # Create your URLConf here.

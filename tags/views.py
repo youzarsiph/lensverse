@@ -1,18 +1,17 @@
-""" API endpoints for pixhub.topics """
-
+""" API endpoints for lensverse.tags """
 
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
-from pixhub.topics.models import Topic
-from pixhub.topics.serializers import TopicSerializer
+from lensverse.tags.models import Tag
+from lensverse.tags.serializers import TagSerializer
 
 
 # Create your views here.
-class TopicViewSet(ModelViewSet):
-    """Create, read, update and delete Topics"""
+class TagViewSet(ModelViewSet):
+    """Create, read, update and delete Tags"""
 
-    queryset = Topic.objects.all()
-    serializer_class = TopicSerializer
+    queryset = Tag.objects.all()
+    serializer_class = TagSerializer
     permission_classes = [IsAuthenticated]
     search_fields = ["name", "description"]
     ordering_fields = ["created_at", "updated_at"]

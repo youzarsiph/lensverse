@@ -1,5 +1,4 @@
-""" URLConf for pixhub """
-
+""" URLConf for lensverse """
 
 from django.urls import path, include
 

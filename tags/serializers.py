@@ -1,16 +1,15 @@
-""" Serializers for pixhub.topics """
-
+""" Serializers for lensverse.tags """
 
 from rest_framework.serializers import ModelSerializer
-from pixhub.topics.models import Topic
+from lensverse.tags.models import Tag
 
 
 # Create your serializers here.
-class TopicSerializer(ModelSerializer):
-    """Topic Serializer"""
+class TagSerializer(ModelSerializer):
+    """Tag Serializer"""
 
     class Meta:
         """Meta data"""
 
-        model = Topic
+        model = Tag
         fields = ["id", "url", "name", "description", "created_at", "updated_at"]

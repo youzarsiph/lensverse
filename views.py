@@ -1,10 +1,9 @@
-""" API endpoints for pixhub """
-
+""" API endpoints for lensverse """
 
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ModelViewSet
-from pixhub.models import User
-from pixhub.serializers import UserSerializer
+from lensverse.models import User
+from lensverse.serializers import UserSerializer
 
 
 # Create your views here.

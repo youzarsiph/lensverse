@@ -1,12 +1,11 @@
-""" Data Models for pixhub.topics """
-
+""" Data Models for lensverse.tags """
 
 from django.db import models
 
 
 # Create your models here.
-class Topic(models.Model):
-    """Pix Topics"""
+class Tag(models.Model):
+    """Post Tags"""
 
     name = models.CharField(
         max_length=32,

@@ -1,10 +1,9 @@
-""" API endpoints for pixhub.profiles """
-
+""" API endpoints for lensverse.profiles """
 
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
-from pixhub.profiles.models import Profile
-from pixhub.profiles.serializers import ProfileSerializer
+from lensverse.profiles.models import Profile
+from lensverse.profiles.serializers import ProfileSerializer
 
 
 # Create your views here.

@@ -1,1 +1,1 @@
-""" PixHub: A pix sharing platform """
+""" LensVerse: A photo sharing platform """

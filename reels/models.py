@@ -1,5 +1,4 @@
-""" Data Models for pixhub.reels """
-
+""" Data Models for lensverse.reels """
 
 from django.db import models
 from django.contrib.auth import get_user_model

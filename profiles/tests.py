@@ -1,5 +1,4 @@
-""" Tests for pixhub.profiles """
-
+""" Tests for lensverse.profiles """
 
 from django.test import TestCase
 

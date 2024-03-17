@@ -1,5 +1,4 @@
-""" Data Models for pixhub.pixes """
-
+""" Data Models for lensverse.posts """
 
 from django.db import models
 from django.contrib.auth import get_user_model
@@ -9,24 +8,24 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 
-class Pix(models.Model):
+class Post(models.Model):
     """Pix Posts"""
 
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
-        related_name="pixes",
-        help_text="Pix Owner",
+        related_name="posts",
+        help_text="Post Owner",
     )
     image = models.ImageField(
-        help_text="Pix Image",
-        upload_to="files/pixes/images/",
+        help_text="Post Image",
+        upload_to="files/posts/images/",
     )
     text = models.CharField(
         max_length=128,
         null=True,
         blank=True,
-        help_text="Pix Text",
+        help_text="Post Text",
     )
     updated_at = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)

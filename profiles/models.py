@@ -1,5 +1,4 @@
-""" Data Models for pixhub.profiles """
-
+""" Data Models for lensverse.profiles """
 
 from django.db import models
 from django.contrib.auth import get_user_model

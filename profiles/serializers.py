@@ -1,8 +1,7 @@
-""" Serializers for pixhub.profiles """
-
+""" Serializers for lensverse.profiles """
 
 from rest_framework.serializers import ModelSerializer
-from pixhub.profiles.models import Profile
+from lensverse.profiles.models import Profile
 
 
 # Create your serializers here.

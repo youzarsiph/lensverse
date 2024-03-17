@@ -1,12 +1,11 @@
-""" AppConf for pixhub.profiles """
-
+""" AppConf for lensverse.profiles """
 
 from django.apps import AppConfig
 
 
 # Create your AppConf here.
 class ProfilesConfig(AppConfig):
-    """App Configuration for pixhub.profiles"""
+    """App Configuration for lensverse.profiles"""
 
-    name = "pixhub.profiles"
+    name = "lensverse.profiles"
     default_auto_field = "django.db.models.BigAutoField"

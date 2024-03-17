@@ -1,5 +1,4 @@
-""" Tests for pixhub.stories """
-
+""" Tests for lensverse.stories """
 
 from django.test import TestCase
 

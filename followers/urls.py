@@ -1,9 +1,8 @@
-""" URLConf for pixhub.followers """
-
+""" URLConf for lensverse.followers """
 
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from pixhub.followers.views import FollowerViewSet
+from lensverse.followers.views import FollowerViewSet
 
 
 # Create your URLConf here.

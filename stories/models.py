@@ -1,5 +1,4 @@
-""" Data Models for pixhub.stories """
-
+""" Data Models for lensverse.stories """
 
 from django.db import models
 from django.contrib.auth import get_user_model

@@ -1,5 +1,4 @@
-""" Data Models for pixhub """
-
+""" Data Models for lensverse """
 
 from django.db import models
 from django.contrib.auth.models import AbstractUser
@@ -7,7 +6,7 @@ from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
 class User(AbstractUser):
-    """PixHub Users"""
+    """LensVerse Users"""
 
     photo = models.ImageField(
         null=True,

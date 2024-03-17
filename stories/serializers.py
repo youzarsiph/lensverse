@@ -1,8 +1,7 @@
-""" Serializers for pixhub.stories """
-
+""" Serializers for lensverse.stories """
 
 from rest_framework.serializers import ModelSerializer
-from pixhub.stories.models import Story
+from lensverse.stories.models import Story
 
 
 # Create your serializers here.

@@ -1,5 +1,4 @@
-""" Tests for pixhub.topics """
-
+""" Tests for lensverse.posts """
 
 from django.test import TestCase
 

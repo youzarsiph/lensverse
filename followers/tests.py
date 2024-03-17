@@ -1,5 +1,4 @@
-""" Tests for pixhub.followers """
-
+""" Tests for lensverse.followers """
 
 from django.test import TestCase
 
